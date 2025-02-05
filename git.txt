@@ -1,0 +1,8 @@
+git clone https://github.com/........
+
+git branch -a (voir toutes les branches)
+git checkout -b nom-de-branche origin/nom-branche (recuperer une branche distante)
+git branch (verifier la branche active)
+
+git remote -v (pour verifier qu'on est bien conecté au repos distant)
+
