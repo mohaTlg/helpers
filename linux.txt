@@ -1,1 +1,4 @@
 Open the terminal : Ctrl + Alt + T
+voir le type de disque dure: lsblk
+caractere inferieur <: Ctrl + Shift + U, puis 3C, puis Entrée
+caractere supperieur >: Ctrl + shift + U, puis 3E, puis Entrée
