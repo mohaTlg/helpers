@@ -1,0 +1,13 @@
+# 1. Créer/Vider le fichier de sortie
+New-Item -Path "code_complet.txt" -ItemType File -Force
+
+# 2. Chercher les fichiers Java (en ignorant le dossier 'target' et les tests pour alléger)
+Get-ChildItem -Path "src/main/java" -Recurse -Filter *.java | ForEach-Object {
+    # Ajouter le nom du fichier pour que je sache ce que je lis
+    Add-Content -Path "code_complet.txt" -Value ("`n`n========================================`nFICHIER: " + $_.Name + "`n========================================`n")
+    # Ajouter le contenu du fichier
+    Get-Content $_.FullName | Add-Content -Path "code_complet.txt"
+}
+
+# 3. Ouvrir le fichier créé
+Invoke-Item "code_complet.txt"
