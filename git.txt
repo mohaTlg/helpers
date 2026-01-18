@@ -7,3 +7,5 @@ git branch (verifier la branche active)
 git remote -v (pour verifier qu'on est bien conecté au repos distant)
 
 git push origin nomdelabranche (envoyer la branche sur git)
+
+git switch -c nom-de-la-branche (creer une branche)
