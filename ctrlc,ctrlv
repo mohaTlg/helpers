@@ -1,3 +1,0 @@
-Je travail sur la generation de metamodel fast typeScript sur pharo pour la plateforme moose, pour faire cette generation je parse le fichier node-type.json et je fais un script qui va utiliser le builder de pharo, J'ai dejà generé defineRelation (qui n'est pas complet), defineTraits (est ecrit manuellement car pas besoin de l'automatiser pour le moment), defineHierarchy (est ecrit manuellement mais il est pas complet)
-le metamodel generé se trouve ici : https://github.com/mohaTlg/FASTTypeScriptGenerated2.git
-je veux que tu m'aides, commençons par mettre en place l'environnement de travail
